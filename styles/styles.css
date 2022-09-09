@@ -5,7 +5,7 @@
 	--linkcolor: #1f1f1f;
 	--visitedcolor: #454545;
 	--font-family: 1.23em/1.62 -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-	--highlight-color: rgba(211,211,211,0.55);
+	--highlight-color: rgba(211,211,211,0.85);
 
 }
 
@@ -33,13 +33,6 @@ a:link {
 	color: var(--linkcolor);
 	background-color: var(--highlight-color);
 	font-weight: bold;
-	text-decoration: none; 
-}
-
-a:hover {
-	color: var(--linkcolor);
-	background-color: var(--highlight-color);
-	text-decoration-style: solid; 
 }
 
 a:visited {
